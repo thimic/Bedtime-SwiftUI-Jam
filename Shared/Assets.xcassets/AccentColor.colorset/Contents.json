@@ -1,7 +1,25 @@
 {
   "colors" : [
     {
-      "idiom" : "universal"
+      "color" : {
+        "platform" : "ios",
+        "reference" : "systemIndigoColor"
+      },
+      "idiom" : "iphone"
+    },
+    {
+      "color" : {
+        "platform" : "ios",
+        "reference" : "systemIndigoColor"
+      },
+      "idiom" : "ipad"
+    },
+    {
+      "color" : {
+        "platform" : "osx",
+        "reference" : "systemIndigoColor"
+      },
+      "idiom" : "mac"
     }
   ],
   "info" : {

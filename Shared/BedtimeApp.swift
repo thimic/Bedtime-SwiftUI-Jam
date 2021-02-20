@@ -13,8 +13,9 @@ struct BedtimeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            MainScreen()
+                .environmentObject(BedtimeModel.example)
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
